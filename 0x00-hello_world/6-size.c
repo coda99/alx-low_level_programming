@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - mother of all functions
  *
