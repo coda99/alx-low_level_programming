@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  * main - mother of all functions
  *
  * srand: function for initializing random generator
@@ -16,11 +16,15 @@ int main(void)
 	int i = 0, n = 0;
 	time_t t;
 
-	/* Initializie random number generator */
+	/**
+	 * Initializie random number generator
+	 * */
 	srand((unsigned int) time(&t));
 	n = rand() - RAND_MAX / 2;
 
-	/* Test for 0 */
+	/**
+	 * Test for 0
+	 * */
 	if (n > i)
 	{
 		printf("%d is positive\n", n);
