@@ -10,7 +10,7 @@
  * rand: function for generating random numbers
  *
  * Return: 0 if everything okay
- * */
+ */
 int main(void)
 {
 	int i = 0, n = 0;
@@ -18,13 +18,13 @@ int main(void)
 
 	/**
 	 * Initializie random number generator
-	 * */
+	 */
 	srand((unsigned int) time(&t));
 	n = rand() - RAND_MAX / 2;
 
 	/**
 	 * Test for 0
-	 * */
+	 */
 	if (n > i)
 	{
 		printf("%d is positive\n", n);
