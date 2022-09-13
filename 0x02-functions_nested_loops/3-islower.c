@@ -4,7 +4,7 @@ int _islower(int c)
 
 	for (i = 97; i < 123; i++)
 	{
-		if (i == _putchar(i + '0'))
+		if (i == _putchar(c + '0'))
 		{
 			return (1);
 		}
