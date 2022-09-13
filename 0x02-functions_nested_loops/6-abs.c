@@ -1,3 +1,6 @@
+#include "main.h"
+#include <stdio.h>
+
 /**
  * _abs - returns the abs val of a num
  *
