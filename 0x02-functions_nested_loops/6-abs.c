@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * _abs - returns the abs val of a num
  *
@@ -12,7 +10,7 @@ int _abs(int n)
 {
 	if (n < 0)
 	{
-		n = n + (n * 2);
+		n += (n * 2);
 		return (n);
 	}
 	else if (n > 0)
