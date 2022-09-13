@@ -4,7 +4,7 @@ int _islower(int c)
 
 	for (i = 97; i < 123; i++)
 	{
-		if (i == &c)
+		if (i == c)
 		{
 			return (1);
 		}
