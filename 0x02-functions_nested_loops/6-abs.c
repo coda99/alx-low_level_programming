@@ -17,7 +17,7 @@ int _abs(int n)
 	}
 	else
 	{
-		n += (unsigned) n * 2;
+		n += (unsigned n) * 2;
 		return (n);
 	}
 }
