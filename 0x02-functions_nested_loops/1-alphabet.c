@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * print_alphabet: sends code to main for printing
+ * print_alphabet - sends code to main for printing
  *
  * Return: Alwasy 0
  */
