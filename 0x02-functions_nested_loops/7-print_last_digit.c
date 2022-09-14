@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_last_digit - takes a number and prints back the las digit to stdout
