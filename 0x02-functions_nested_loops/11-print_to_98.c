@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * print_to_98 - Prints all natural nums from n to 98, sep by comma and followed by space.
  * @n: arg
