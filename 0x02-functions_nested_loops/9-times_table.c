@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - sends the mul table to stdout starting from 0
+ * times_table - sends the mul table to stdout starting from 0
  */
 
 void times_table(void)
@@ -22,6 +22,8 @@ void times_table(void)
 				_putchar(' ');
 			else
 				_putchar((k / 10) + '0');
+
+			_putchar((k % 10) + '0');
 		}
 		
 		_putchar('\n');
