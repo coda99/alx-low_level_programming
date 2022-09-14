@@ -21,6 +21,6 @@ int print_last_digit(int n)
 	} else
 	{
 		i = (n % 10);
-		printf("%d%d", i, i)
+		printf("%d%d", i, i);
 	}
 }
