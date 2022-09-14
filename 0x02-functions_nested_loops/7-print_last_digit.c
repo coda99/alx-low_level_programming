@@ -17,13 +17,7 @@ int print_last_digit(int n)
 		i = n % (-10);
 		i *= -1;
 
-		put(i);
-		put(i);
-		putchar('\n');
+		return (i);
 	} else
-	{
-		i = (n % 10);
-		put(i);
-		putchar('\n');
-	}
+	       return (n % 10);
 }
