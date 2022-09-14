@@ -17,10 +17,13 @@ int print_last_digit(int n)
 		i = n % (-10);
 		i *= -1;
 
-		printf("%d%d", i, i);
+		put(i);
+		put(i);
+		putchar('\n');
 	} else
 	{
 		i = (n % 10);
-		printf("%d%d", i, i);
+		put(i);
+		putchar('\n');
 	}
 }
