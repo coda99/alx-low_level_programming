@@ -1,24 +1,26 @@
 #include "main.h"
 
 /**
- * most_numbers - function to print numbers to stdout x10
+ * more_numbers - function to print numbers to stdout x10
  *
  * Return: 0
  */
 
-void more_numbers(void);
+void more_numbers(void)
 {
 	char i;
-	int n;
+	int n = 0;
 
-	for (i = 0; i < 15; i++)
-	{
-		while (n < 11)
+	do {
+		for (i = 0; i <= 14; i++)
 		{
-			_putchar(i + '0');
-			n++;
+			if (i > 9)
+			{
+				putchar((i / 10) + '0');
+			}
+			putchar((i % 10) + '0');
 		}
-		_putchar('\n');
-	}
-	_putchar('\n');
+		n++;
+		putchar('\n');
+	} while (n < 10);
 }
