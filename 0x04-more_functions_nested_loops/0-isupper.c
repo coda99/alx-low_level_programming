@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - function to checl for lower chars
+ * _isupper - function to check for upper chars
  *
  * @c: int val for argument
  *
