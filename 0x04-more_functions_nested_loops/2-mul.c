@@ -3,7 +3,8 @@
 /**
  * mul - function to multiply numbers
  *
- * @c: int val for argument
+ * @a: first int val for arg
+ * @b: 2nd int val for arg
  *
  * Return: 0
  */
