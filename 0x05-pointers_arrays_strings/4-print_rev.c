@@ -8,11 +8,11 @@
  */
 void print_rev(char *s)
 {
-	int end = strlen(s) -1;
+	int end = strlen(s) - 1;
 	while (end)
 	{
-		putchar(end);
-		--end;
+		putchar(*s);
+		--*s;
 	}
 	putchar('\n');
 }
