@@ -5,7 +5,6 @@
  * _puts - print string to stdout
  * @str: args
  *
- * Return: 0 always
  */
 
 void _puts(char *str)
@@ -17,6 +16,4 @@ void _puts(char *str)
 		putchar(i);
 	}
 	putchar('\n');
-
-	return (0);
 }
