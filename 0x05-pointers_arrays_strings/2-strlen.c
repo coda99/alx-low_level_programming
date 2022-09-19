@@ -10,12 +10,12 @@
 
 int _strlen(char *s)
 {
-	int i;
+/*	int i;
 
 	for (i = 0; i < *s; i++)
 	{
 		return (i);
 	}
-
-	return (0);
+*/
+	return (sizeof(*s));
 }
