@@ -9,10 +9,10 @@
 void print_rev(char *s)
 {
 	int end = strlen(s) - 1;
-	while (end)
+	while (*s)
 	{
 		putchar(*s);
-		--*s;
+		--end;
 	}
 	putchar('\n');
 }
