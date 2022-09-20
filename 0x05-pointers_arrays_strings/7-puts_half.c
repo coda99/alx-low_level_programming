@@ -9,15 +9,10 @@
 
 void puts_half(char *str)
 {
-	double half = strlen(str) / 2;
+	int half = strlen(str) / 2;
 
 	while (*(str + half) != '\0')
 	{
-		if (half % 2 != 0)
-		{
-			double odd = half_len  - 0.5;
-			putchar(*(str + odd));
-		}
 		putchar(*(str + half));
 		half_len++;
 	}
