@@ -14,6 +14,6 @@ void puts_half(char *str)
 	while (*(str + half) != '\0')
 	{
 		putchar(*(str + half));
-		half_len++;
+		half++;
 	}
 }
