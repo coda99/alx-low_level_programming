@@ -2,16 +2,15 @@
 #include <string.h>
 
 /**
- * _strncpy - concatinates two strings with n bytes
+ * _strcmp - concatinates two strings with n bytes
  *
- * @src: first string
- * @dest: second string
- * @n: third arg
+ * @s1: first string
+ * @s2: second string
  *
- * Return: Dest as final result
+ * Return: s2 as final result
  */
 
-char _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	strcmp(s1, s2);
 
