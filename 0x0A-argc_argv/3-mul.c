@@ -14,12 +14,17 @@ int main(int argc, char *argv[])
 {
 	int i, prod = 1;
 
-	for (i = 1; i < argc; i++)
+	if (argc > 1)
 	{
-		prod *= atoi(argv[i]);
+		for (i = 1; i < argc; i++)
+		{
+			prod *= atoi(argv[i]);
+		}
+
+		printf("%d\n", prod);
+		return (0);
 	}
 
-	printf("%d\n", prod);
-
-	return (0);
+	printf("Error\n");
+	exit (EXIT_FAILURE);
 }
