@@ -26,5 +26,5 @@ int main(int argc, char *argv[])
 	}
 
 	printf("Error\n");
-	exit (EXIT_FAILURE);
+	exit(EXIT_FAILURE);
 }
