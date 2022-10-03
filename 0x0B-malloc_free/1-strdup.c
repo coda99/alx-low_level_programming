@@ -3,7 +3,7 @@
 
 /**
  * _strdup - returns a pointer to newly allocated mem
- * @str: pointer to string being duplicated 
+ * @str: pointer to string being duplicated
  *
  * Return: NULL if str is NULL
  */
